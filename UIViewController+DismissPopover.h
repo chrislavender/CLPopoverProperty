@@ -1,9 +1,8 @@
 //
 //  UIViewController+DismissPopover.h
-//  Kareo
 //
 //  Created by Chris Lavender on 11/15/13.
-//  Copyright (c) 2013 Kareo. All rights reserved.
+//  Copyright (c) 2013 Chris Lavender. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
