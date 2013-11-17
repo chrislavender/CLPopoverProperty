@@ -1,0 +1,27 @@
+# Exclude temp nibs and swap files
+*~.nib
+*.swp
+ 
+# Exclude OS X folder attributes
+.DS_Store
+ 
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+
+#ignore Pods directory except the Podfile.lock
+#got this from Ash Furrow at 360iDev 2013 talk:"How To Use Open Source Software Effectively"
+Pods/
+!Podfile.lock
